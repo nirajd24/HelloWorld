@@ -1,6 +1,7 @@
 public class SecondsAndMinutesChallenge {
     public static void main(String[] args){
-        System.out.println(getDurationString(10203));
+        System.out.println(getDurationString(65L,45L));
+        System.out.println(getDurationString(3945L));
     }
 
     private static String getDurationString(long minutes, long seconds){
@@ -13,19 +14,19 @@ public class SecondsAndMinutesChallenge {
 
         String returnString;
 
-        if((hours / 10) == 0){
+        if(hours < 10){
             returnString = "0" + hours + "h ";
         } else {
             returnString = hours + "h ";
         }
 
-        if((minutes / 10) == 0){
+        if(minutes < 10){
             returnString = returnString + "0" + minutes + "m ";
         } else {
             returnString = returnString + minutes + "m ";
         }
 
-        if((seconds / 10) == 0){
+        if(seconds < 10){
             returnString = returnString + "0" + seconds + "s";
         } else {
             returnString = returnString + seconds + "s";
