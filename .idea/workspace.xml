@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72934a48-63ae-431a-9e1a-eeabfe4e562a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FirstLastDigitSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberPalindrome.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumberPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="51">
+              <caret line="3" column="5" selection-start-line="1" selection-start-column="4" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FirstLastDigitSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -76,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/LeapYear.java" />
         <option value="$PROJECT_DIR$/src/DigitSumChallenge.java" />
         <option value="$PROJECT_DIR$/src/NumberPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/FirstLastDigitSum.java" />
       </list>
     </option>
   </component>
@@ -131,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberPalindrome">
+  <component name="RunManager" selected="Application.FirstLastDigitSum">
     <configuration name="DayOfTheWeekChallenge" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DayOfTheWeekChallenge" />
       <module name="HelloWorld" />
@@ -146,15 +156,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForDemo" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForDemo" />
+    <configuration name="FirstLastDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstLastDigitSum" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinutesToYearsDaysCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinutesToYearsDaysCalculator" />
+    <configuration name="ForDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ForDemo" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,19 +218,19 @@
       <item itemvalue="Application.NumberInWord" />
       <item itemvalue="Application.NumberOfDaysInMonth" />
       <item itemvalue="Application.ForDemo" />
-      <item itemvalue="Application.MinutesToYearsDaysCalculator" />
       <item itemvalue="Application.SpeedConverter" />
       <item itemvalue="Application.TeenNumberChecker" />
       <item itemvalue="Application.DigitSumChallenge" />
       <item itemvalue="Application.NumberPalindrome" />
+      <item itemvalue="Application.FirstLastDigitSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstLastDigitSum" />
         <item itemvalue="Application.NumberPalindrome" />
         <item itemvalue="Application.DigitSumChallenge" />
         <item itemvalue="Application.TeenNumberChecker" />
         <item itemvalue="Application.SpeedConverter" />
-        <item itemvalue="Application.MinutesToYearsDaysCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556376879535</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="New Programs">
+      <created>1556378355422</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1556378355422</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -354,9 +371,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,7 +381,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49520257" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -560,8 +576,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumberPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="1" selection-start-column="4" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstLastDigitSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
