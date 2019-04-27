@@ -1,6 +1,6 @@
 public class LeapYear {
     public static void main(String[] args) {
-        System.out.println(isLeapYear(1800));
+        System.out.println(isLeapYear(1988));
     }
     public static boolean isLeapYear(int year){
         if(!((year >= 1) && (year <= 9999))) {
